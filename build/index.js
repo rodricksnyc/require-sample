@@ -1,6 +1,6 @@
 'use strict';
 
-requirejs(['/vendorlibs/bootstrap/js/bootstrap.min.js', 'config'], function () {
+requirejs(['/require-sample/vendorlibs/bootstrap/js/bootstrap.min.js', 'config'], function () {
 	$(document).ready(function () {
 		$('.carousel').on('slid.bs.carousel', function () {
 			var carouselData = $(this).data('bs.carousel');
