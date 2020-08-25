@@ -1,5 +1,5 @@
 requirejs([
-	'/vendorlibs/bootstrap/js/bootstrap.min.js',
+	'/require-sample/vendorlibs/bootstrap/js/bootstrap.min.js',
 	'config',
 ], function() {
 	$(document).ready(function () {
