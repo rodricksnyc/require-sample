@@ -1,10 +1,5 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-
 var block = { "blocks": [{
     "title": 'Forms',
     "icon": '<i class="fal fa-file-alt"></i>'
@@ -39,4 +34,4 @@ var block = { "blocks": [{
 
 };
 
-exports.block = block;
+// export { block };
